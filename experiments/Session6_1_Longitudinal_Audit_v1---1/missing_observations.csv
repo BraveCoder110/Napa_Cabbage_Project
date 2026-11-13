@@ -1,0 +1,4 @@
+﻿tracked_leaf_id,head_id,leaf_id,side,day,expected_filename,status,reason
+C04L03,C04,L03,reverse,D0,C04L03反.jpg,MISSING,not_collected_or_not_in_archive
+C05L03,C05,L03,reverse,D0,C05L03反.jpg,MISSING,not_collected_or_not_in_archive
+C05L04,C05,L04,reverse,D0,C05L04反.jpg,MISSING,not_collected_or_not_in_archive

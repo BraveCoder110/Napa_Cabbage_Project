@@ -1,0 +1,17 @@
+﻿check,status,detail
+zip_paths_safe,PASS,"203 regular entries, root=CS7002SR_Artifact_V6_NEW/"
+zip_duplicate_entries,PASS,203 entries
+zip_crc,PASS,all entries pass CRC
+isolated_extraction,PASS,/mnt/data/V7_local_validation_20261113/isolated/CS7002SR_Artifact_V6_NEW
+required_paths,PASS,13/13
+manifest_sha256,PASS,"199 tracked, 0 mismatch, payload=166437589 bytes"
+manifest_unique,PASS,199 rows
+build_summary,PASS,"{'status': 'STAGED_NOT_INDEPENDENTLY_VERIFIED', 'files': 199, 'payload_bytes': 166437589, 'include_target_157': False, 'source_dataset_redistribution': 'EXCLUDED_PENDING_MANUAL_REVIEW', 'validation': 'needs V7 clean-folder/clean-environment testing', 'source_root_is_not_bundled': True}"
+untracked_files,PASS,"extra files: ARTIFACT_BUILD_SUMMARY_V6.json, FILE_MANIFEST_V6.csv, README_START_HERE.md, SOURCE_DATASET_ACCESS_AND_LICENCE_REVIEW_REQUIRED.md"
+source_dataset_exclusion,PASS,no original public source images/labels/derived mask ZIP
+source_validation_custom,PASS,115 rows
+source_validation_resnet18,PASS,115 rows
+reviewed_gt_masks,PASS,20 PNG masks
+reviewed_photo_subset,PASS,20 JPG photos
+isolated_cpu_demo,PASS,returncode=0; outputs=6/6; see demo_console_v7.txt
+demo_metrics_finite,PASS,"{'roi_fraction': 0.4026595289079229, 'green_ratio': 0.6020250795035151, 'yellow_candidate_ratio': 0.13542187383669604, 'brown_candidate_ratio': 0.045356888354729265}"

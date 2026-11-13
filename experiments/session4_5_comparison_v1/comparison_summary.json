@@ -1,0 +1,27 @@
+{
+  "n_matched_validation_images": 115,
+  "custom_mean_image_dice": 0.9642545789133729,
+  "transfer_mean_image_dice": 0.9532770443176926,
+  "custom_mean_image_iou": 0.9351432420996078,
+  "transfer_mean_image_iou": 0.914389659078619,
+  "mean_paired_delta_dice_transfer_minus_custom": -0.010977534595680296,
+  "median_paired_delta_dice_transfer_minus_custom": -0.01058174529279765,
+  "higher_dice_count": {
+    "custom": 100,
+    "transfer": 15,
+    "tie": 0
+  },
+  "worst_k_overlap": [
+    "hik_0545",
+    "hik_0550",
+    "hik_0553",
+    "hik_0556",
+    "hik_0564",
+    "hik_0566",
+    "hik_0567",
+    "hik_0569",
+    "hik_0574",
+    "hik_0575"
+  ],
+  "interpretation_warning": "Per-image averages are NOT global pixel-aggregated Dice/IoU. These 115 validation images are not a new independent test set. Paired comparisons are descriptive, not a biological-replicate significance test."
+}

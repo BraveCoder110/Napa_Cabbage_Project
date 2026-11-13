@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Research leaf demo</title><style>body{font:16px/1.55 Arial,sans-serif;background:#f4f6f7;color:#172533;margin:0}main{max-width:1050px;margin:auto;padding:30px}h1{margin:0}.sub{color:#596573}.alert{background:#fff1dc;padding:15px;border-left:5px solid #a87012;margin:22px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:18px}.card{background:#fff;border-radius:12px;padding:17px;box-shadow:0 2px 9px #d7dee4}img{width:100%;max-height:390px;object-fit:contain;background:#f3f3f3}table{border-collapse:collapse;background:white;width:100%}td,th{border-bottom:1px solid #ddd;padding:9px;text-align:left}footer{color:#596573;margin:30px 0}</style><main>
+<h1>Live Leaf Image Analysis — Research Demonstration</h1>
+<p class="sub">Input: A01C01L01正.jpg · Model: ResNet18UNet (Session 6.2 analysis-only) · One image only</p>
+<div class="alert"><strong>Research boundary:</strong> This is a predicted leaf mask and exploratory visual features. No verified fresh/moderate/spoiled label, food safety assessment, or ground-truth Dice for this newly captured photograph.</div>
+<h2>Processing stages</h2><div class="grid">
+<article class="card"><h3>01. Original upright photo</h3><img src="01_input_upright.png" alt="Original upright photo"><p>EXIF rotation is corrected; image data is not colour-calibrated.</p></article>
+<article class="card"><h3>02. Model input (128 x 128)</h3><img src="02_model_input_128.png" alt="Model input (128 x 128)"><p>Resized RGB / 255. This is the tensor supplied to the network.</p></article>
+<article class="card"><h3>03. Predicted probability map</h3><img src="03_probability_heatmap.png" alt="Predicted probability map"><p>Sigmoid of model logits; NOT a calibrated probability of being fresh.</p></article>
+<article class="card"><h3>04. Binary leaf mask</h3><img src="04_binary_mask.png" alt="Binary leaf mask"><p>Pixel is foreground if predicted value is &gt;= 0.5.</p></article>
+<article class="card"><h3>05. Overlay on original image</h3><img src="05_segmentation_overlay.png" alt="Overlay on original image"><p>A visual check for leakage onto the table and missing leaf regions.</p></article>
+<article class="card"><h3>06. Leaf isolated from background</h3><img src="06_foreground_only.png" alt="Leaf isolated from background"><p>Uses the same predicted mask. Not a new model prediction.</p></article>
+<article class="card"><h3>07. HSV colour candidate highlights</h3><img src="07_colour_candidates.png" alt="HSV colour candidate highlights"><p>Green, yellow and brown candidate pixels are illustrative. Colour groups can overlap.</p></article>
+<article class="card"><h3>08. Candidate colour ratio chart</h3><img src="08_candidate_ratio_chart.png" alt="Candidate colour ratio chart"><p>Fractions of sampled pixels INSIDE the model-selected ROI.</p></article>
+</div><h2>Numerical output</h2><table><tr><th>Measurement</th><th>Value</th><th>Interpretation</th></tr>
+<tr><td>roi_fraction</td><td>44.54%</td><td>Fraction of photograph covered by predicted leaf</td></tr>
+<tr><td>green_ratio</td><td>63.16%</td><td>Candidate green pixels / ROI pixels</td></tr>
+<tr><td>yellow_candidate_ratio</td><td>1.87%</td><td>Candidate yellow pixels / ROI pixels</td></tr>
+<tr><td>brown_candidate_ratio</td><td>0.69%</td><td>Candidate brown pixels / ROI pixels</td></tr>
+<tr><td>texture_neighbor_diff</td><td>10.590</td><td>Average neighboring grayscale difference (arbitrary units)</td></tr>
+</table><h2>Quality alerts</h2><ul>
+<li>New images have no GT: Dice/IoU cannot be calculated from this photograph.</li>
+<li>Model not validated on uncontrolled live photos; camera lighting and background may bias features.</li>
+</ul><footer>All results are descriptive. Appearance is sensitive to camera, illumination, background, and segmentation errors.</footer></main></html>

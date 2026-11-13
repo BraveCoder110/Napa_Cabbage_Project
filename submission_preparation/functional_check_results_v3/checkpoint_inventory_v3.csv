@@ -1,0 +1,4 @@
+﻿model,checkpoint,status,size_bytes,sha256,parameter_count,probability_min,probability_max,foreground_fraction_at_0_5,error
+custom_source,experiments/session3_4_baseline_v2/best_unet.pth,PASS,1987609,3f52b0415f4800f65489a6de8da082dc5af1e48c3e835804bd76d3ab67ee1284,488001,0.001153,0.999935,0.071167,
+resnet18_source,experiments/session4_4_transfer_v1/best_resnet18_unet.pth,PASS,57419943,e4e57f1ea23f9894b2fef67d6b14c83fdfc032674f15980405be98d14f87a6dd,14328081,0.266197,0.991689,0.632568,
+resnet18_analysis_in_sample,experiments/session6_2_analysis_roi_candidates_v1/resnet18_target_analysis_only.pth,FAIL,57422011,900cf8bdbd3b573e05519d4837044aa12cad279be805788c04234087272269c4,,,,,ValueError: Transfer checkpoint does not identify the trained pretrained ResNet18 U-Net.

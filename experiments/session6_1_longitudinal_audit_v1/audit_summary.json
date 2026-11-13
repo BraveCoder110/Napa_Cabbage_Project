@@ -1,0 +1,36 @@
+{
+  "study": "longitudinal visual freshness-related appearance pilot",
+  "independent_source_heads": 5,
+  "distinct_tracked_leaves": 20,
+  "timepoints": [
+    "D0",
+    "D3",
+    "D5",
+    "D7"
+  ],
+  "photographs_observed_total": 157,
+  "photographs_expected_if_complete": 160,
+  "observed_per_day": {
+    "D0": 37,
+    "D3": 40,
+    "D5": 40,
+    "D7": 40
+  },
+  "missing_count": 3,
+  "missing_filenames": [
+    "C04L03反.jpg",
+    "C05L03反.jpg",
+    "C05L04反.jpg"
+  ],
+  "tracked_leaf_side_series_total": 40,
+  "complete_four_timepoint_series": 37,
+  "incomplete_series": 3,
+  "complete_front_series": 20,
+  "complete_reverse_series": 17,
+  "valid_D0_to_followup_pairs": 111,
+  "biological_independence_warning": "Images are repeated/nested observations from only five source heads.",
+  "ground_truth_warning": "Storage day is not a measured freshness or food-safety label.",
+  "photography_warning": "Colour and projected size may vary with lighting, pose, camera and possible chilling/freezing effects.",
+  "metadata_warning": "Actual capture timestamps should come from laboratory notes; image metadata was not used as proof of capture time.",
+  "images_rewritten": false
+}

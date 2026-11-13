@@ -1,0 +1,48 @@
+{
+  "total": 157,
+  "flags": {
+    "AUTO_CANDIDATE_REVIEW_REQUIRED": 120,
+    "TOUCHES_IMAGE_BORDER": 37
+  },
+  "priorities": {
+    "MEDIUM": 88,
+    "HIGH": 55,
+    "STANDARD": 14
+  },
+  "by_day": [
+    {
+      "day": 0,
+      "count": 37,
+      "mean": 0.437632,
+      "min": 0.311707,
+      "max": 0.516052
+    },
+    {
+      "day": 3,
+      "count": 40,
+      "mean": 0.424393,
+      "min": 0.31781,
+      "max": 0.552856
+    },
+    {
+      "day": 5,
+      "count": 40,
+      "mean": 0.377248,
+      "min": 0.312439,
+      "max": 0.492065
+    },
+    {
+      "day": 7,
+      "count": 40,
+      "mean": 0.358084,
+      "min": 0.299255,
+      "max": 0.439758
+    }
+  ],
+  "warnings": [
+    "Automatic flags are alerts, not approvals or proof of error.",
+    "No pixelwise visual QC performed for all 157 full resolution masks.",
+    "Candidate previews show low-resolution overlays only.",
+    "ROI area fraction changes cannot establish leaf shrinkage or freshness."
+  ]
+}

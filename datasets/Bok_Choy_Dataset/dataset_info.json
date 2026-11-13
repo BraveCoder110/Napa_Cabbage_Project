@@ -1,0 +1,83 @@
+{
+  "title": "Postharvest Shanghai Bok Choy Dataset for Pre-Cutting Sorting",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "species": "Brassica rapa subsp. chinensis",
+  "cultivars": [
+    "Youmei No. 2",
+    "Dongchun No. 22"
+  ],
+  "num_images": 575,
+  "num_instances": 909,
+  "image_format": "JPEG",
+  "naming_convention": {
+    "pattern": "hik_NNNN",
+    "train_range": "hik_0001-hik_0460",
+    "validation_range": "hik_0461-hik_0575"
+  },
+  "splits": {
+    "train": {
+      "file": "train.json",
+      "images": 460,
+      "instances": 725
+    },
+    "validation": {
+      "file": "val.json",
+      "images": 115,
+      "instances": 184
+    }
+  },
+  "split_generation": {
+    "seed": 42,
+    "validation_ratio": 0.2,
+    "method": "Fixed-source-count random search minimizing global, source, and class imbalance"
+  },
+  "classes": [
+    {
+      "id": 0,
+      "name": "bokchoy_yellow",
+      "description": "Bok choy with basal yellowed leaves and no root residue",
+      "instances": 157
+    },
+    {
+      "id": 1,
+      "name": "bokchoy_root",
+      "description": "Bok choy with root residue and no basal yellowed leaves",
+      "instances": 195
+    },
+    {
+      "id": 2,
+      "name": "bokchoy",
+      "description": "Qualified bok choy without either defect",
+      "instances": 361
+    },
+    {
+      "id": 3,
+      "name": "bokchoy_yellow_root",
+      "description": "Bok choy with both basal yellowed leaves and root residue",
+      "instances": 196
+    }
+  ],
+  "annotation": {
+    "format": "One JSON file per image",
+    "coordinate_system": "Normalized image coordinates in [0, 1]",
+    "instance_fields": [
+      "class_id",
+      "class_name",
+      "group_id",
+      "bbox_xywhn",
+      "polygon_xyn",
+      "keypoints"
+    ],
+    "keypoints": [
+      "root",
+      "leaf"
+    ],
+    "visibility_values": {
+      "0": "Unavailable and ignored during supervision",
+      "2": "Annotated and visible"
+    },
+    "instances_with_valid_direction": 864,
+    "instances_without_valid_direction": 45
+  }
+}

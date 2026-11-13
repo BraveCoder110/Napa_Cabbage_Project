@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-11-07T05:52:18.384209+00:00",
+  "project_root_checked": "C:\\Users\\liyoubao\\Desktop\\LMU-6.AI Vision and Deep Learning\\Napa_Cabbage_Project",
+  "python": "3.14.6",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "status_counts": {
+    "OK": 28
+  },
+  "critical_missing_or_invalid": [],
+  "notes": "This is an inventory, not a reproducibility or scientific validity test. Status OK confirms path/content structure only. Source dataset 575-image binary masks, full source training results, LOHO fold results, and all 157 ROI QA are not fully verified by this manifest. The 20-image analysis mask Dice 0.9576 is in-sample and NOT the five-fold out-of-fold Dice 0.9483.",
+  "user_confirmations_needed": [
+    "Official public Bok Choy dataset URL, author, usage licence and redistribution permission",
+    "Required source dataset/mask availability and clear access instructions",
+    "Functional rerun evidence for source val, target zero-shot, and five LOHO folds",
+    "Checkpoint safety/compatibility load verified in the user's own trusted environment",
+    "Whether model checkpoints are retained in final submission and within platform upload limit",
+    "Academic integrity / AI tool declaration and final Canvas packaging rules"
+  ]
+}

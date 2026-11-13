@@ -1,0 +1,6 @@
+﻿method,test_protocol,global_dice,global_iou
+All foreground baseline,"Target 20, non-learning",0.5692,0.3978
+Custom U-Net zero shot,"Target 20, frozen source model",0.5709,0.3995
+ResNet18 U-Net zero shot,"Target 20, frozen source model",0.5868,0.4152
+Custom U-Net few shot,5-fold leave-one-head-out OOF,0.6645314180800557,0.4976016860873568
+ResNet18 U-Net few shot,5-fold leave-one-head-out OOF,0.9482979267980548,0.9016792406911658

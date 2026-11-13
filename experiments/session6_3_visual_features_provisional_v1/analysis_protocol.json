@@ -1,0 +1,17 @@
+{
+  "status": "PROVISIONAL_UNTIL_ROI_QC",
+  "observations": 157,
+  "matched_pairs": 111,
+  "complete_four_day_series": 37,
+  "independent_source_heads": 5,
+  "sampling_stride": 4,
+  "roi_review_status_counts": {
+    "NOT_PROVIDED": 157
+  },
+  "note": "Heuristic visible colour bins, not validated freshness classes. No statistical independence of repeated observations. Not calibrated for colour or projected physical area.",
+  "baseline_missing": [
+    "C04L03反.jpg",
+    "C05L03反.jpg",
+    "C05L04反.jpg"
+  ]
+}

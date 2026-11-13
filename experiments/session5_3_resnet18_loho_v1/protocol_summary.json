@@ -1,0 +1,24 @@
+{
+  "protocol": "Pre-specified 5-fold leave-one-source-head-out; each model reset to source checkpoint at fold start",
+  "model": "resnet18",
+  "epochs": 3,
+  "lr": 0.0001,
+  "seed": 2026,
+  "target_images": 20,
+  "source_heads": 5,
+  "training_images_per_fold": 16,
+  "test_images_per_fold": 4,
+  "test_image_reuse_across_folds": false,
+  "threshold": 0.5,
+  "img_size": 128,
+  "important": "Out-of-fold adaptation estimate; same 20 manually reviewed samples were used for earlier zero-shot diagnostics. Pilot, not untouched external test.",
+  "overall": {
+    "group": "ALL",
+    "images": 20,
+    "global_dice": 0.94829793,
+    "global_iou": 0.90167924,
+    "tp": 125970,
+    "fp": 9358,
+    "fn": 4378
+  }
+}

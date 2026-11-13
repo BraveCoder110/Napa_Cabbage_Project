@@ -1,0 +1,15 @@
+STEP 1/8 Read photo and apply EXIF rotation
+  Upright image: 1868 x 4000
+STEP 2/8 Prepare 128 x 128 model input
+STEP 3/8 Safely load the original analysis-only checkpoint
+STEP 4/8 Run CPU inference and sigmoid
+STEP 5/8 Make binary mask, full-size mask, overlay
+STEP 6/8 Calculate ORIGINAL-project HSV candidate thresholds on sampled upright RGB
+STEP 7/8 Save stage outputs to a NEW folder
+STEP 8/8 Summary and interpretation
+  roi_fraction: 40.27%
+  green_ratio: 60.20%
+  yellow_candidate_ratio: 13.54%
+  brown_candidate_ratio: 4.54%
+  IMPORTANT: NO FRESHNESS GRADE OR FOOD-SAFETY RESULT.
+  Open: /mnt/data/V7_local_validation_20261113/isolated/CS7002SR_Artifact_V6_NEW/v7_demo_result_NEW/demo_report.html

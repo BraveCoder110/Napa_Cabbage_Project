@@ -1,0 +1,2 @@
+elapsed_seconds=0.28
+pytorch=2.14.1+cpu

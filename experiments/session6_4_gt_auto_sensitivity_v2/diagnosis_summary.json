@@ -1,0 +1,22 @@
+{
+  "status": "ROI_SENSITIVITY_DIAGNOSTIC_NOT_FRESHNESS_VALIDATION",
+  "images": 20,
+  "heads": 5,
+  "pairs": 15,
+  "days": [
+    0,
+    3,
+    5,
+    7
+  ],
+  "mask_source": "user-reviewed GT versus analysis-model automatic candidate",
+  "sampling_stride": 4,
+  "mean_mask_dice": 0.9576229563808376,
+  "min_mask_dice": 0.9290455629100856,
+  "remarks": [
+    "The analysis model was trained on all 20 GT images. This GT-versus-auto mask comparison is IN-SAMPLE and cannot validate segmentation generalization.",
+    "Compare GT-based D3 colour change with auto-mask-based change. If both show spikes, ROI mismatch alone does not explain them.",
+    "Shared changes can still reflect lighting, white balance, storage effects, or heuristic HSV thresholds. No calibrated freshness conclusions.",
+    "Only L01 front of 5 heads is evaluated; other 137 images remain candidate ROI unless individually reviewed."
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "image": "hik_0567",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0567.jpg",
+    "gt_archive_path": "val/masks/hik_0567.png",
+    "rgb_sha256": "7cf0c6ade771e045774abd2f23e1ce6d0675b34439b83e5d83c30dd623d36078",
+    "mask_sha256": "5511b1b0a79b42c841440a0a781f14ef37b2ea07350588d3f4a7c71025140dcb",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0575",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0575.jpg",
+    "gt_archive_path": "val/masks/hik_0575.png",
+    "rgb_sha256": "7cc8a7944416de2777ad0324dec98d8d38f4d12953597690d774031c8cd785be",
+    "mask_sha256": "abbd092b3e372edb2f4d8fcc1b31f2045af77f588498d1588c2a03dc1f8ee5d6",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0569",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0569.jpg",
+    "gt_archive_path": "val/masks/hik_0569.png",
+    "rgb_sha256": "07d15e671120cce27cb7d4a3d2cbbcd7274bc04578cd7a43fd6e7d295fdee3da",
+    "mask_sha256": "cc0ce8bdf6b48ea4d30da0caf7008f5cef12baca6cc5103c3c5f0c2d0009faed",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0553",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0553.jpg",
+    "gt_archive_path": "val/masks/hik_0553.png",
+    "rgb_sha256": "8cf2b993d93c486850ae4e7233a351e1ef69347ea6b1b4c6424ff461c06f91ee",
+    "mask_sha256": "a6606715960946a7476d37a494944233e63e7cfb0463c040d96dbddd7860bde4",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0550",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0550.jpg",
+    "gt_archive_path": "val/masks/hik_0550.png",
+    "rgb_sha256": "60a2695478e056d18ed50b10c0e982e89b86bff994d8115b7d9732c2f3600544",
+    "mask_sha256": "04c952e836578c42988b2e613f3afa50dcb81544012b22733069cf3c53bf72f4",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0545",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0545.jpg",
+    "gt_archive_path": "val/masks/hik_0545.png",
+    "rgb_sha256": "052560f4797094a9329484d9b7b842ba389f67097e8508980c7e4c3546f997b5",
+    "mask_sha256": "46c3073634f4299acc16d67d74c9f25331c58d195a69b7885e39d2e467db406c",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0574",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0574.jpg",
+    "gt_archive_path": "val/masks/hik_0574.png",
+    "rgb_sha256": "0e79e10be504a76bff17eba0013db8df8717e06c85059780f8a97897add807b2",
+    "mask_sha256": "34d1d758158cb49bcd838c117bb9f9e9e8ac6dd1f640445a08bbf3bf304fc4c2",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0566",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0566.jpg",
+    "gt_archive_path": "val/masks/hik_0566.png",
+    "rgb_sha256": "989b9908358027d11f6b69369ea731374e50235b8034f0651f9778f8513ffcb7",
+    "mask_sha256": "b059bf16280a3ec364ab536731816c80a3b37a4384d1466741957bdb135d976f",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0564",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0564.jpg",
+    "gt_archive_path": "val/masks/hik_0564.png",
+    "rgb_sha256": "4dcc5753d5dac81e09c0d8629cd4e4e7216f8b31aa620313db99dc8d9ab7b3d5",
+    "mask_sha256": "6075816362f48cdd38c56246568fdd6766b324074d243cc134c5efc7acd2cead",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  },
+  {
+    "image": "hik_0556",
+    "rgb_archive_path": "Bok_Choy_Dataset/images/hik_0556.jpg",
+    "gt_archive_path": "val/masks/hik_0556.png",
+    "rgb_sha256": "a61bcf75794eb549783b754a67d6514005cc7a8f65f35c66b256223f53c531a8",
+    "mask_sha256": "ac5232962960c1ce79bb3e6ea2b9aa92a06797e4b1fa916780a4e08275464802",
+    "original_rgb_size": [
+      1624,
+      1240
+    ],
+    "source_mask_size": [
+      1624,
+      1240
+    ]
+  }
+]

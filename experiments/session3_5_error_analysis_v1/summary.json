@@ -1,0 +1,11 @@
+{
+  "images": 115,
+  "threshold": 0.5,
+  "global_dice": 0.9575810653996953,
+  "global_iou": 0.9186144203787636,
+  "mean_image_dice": 0.9642545789133726,
+  "mean_image_iou": 0.9351432420996076,
+  "images_below_dice_090": 11,
+  "worst_image": "hik_0567",
+  "worst_dice": 0.7124290682827672
+}

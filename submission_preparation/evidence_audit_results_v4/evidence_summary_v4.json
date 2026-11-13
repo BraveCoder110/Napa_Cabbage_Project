@@ -1,0 +1,283 @@
+{
+  "audit_version": "v4",
+  "read_only_inputs": true,
+  "retraining_performed": false,
+  "metrics_from_stored_confusion_counts": true,
+  "checks": {
+    "PASS": 30,
+    "WARN": 3,
+    "FAIL": 0
+  },
+  "important_scope": "Consistency audit of saved outputs; not inference rerun or biological freshness validation",
+  "result_checks": [
+    {
+      "category": "zero_shot",
+      "check": "custom: 20 unique images / 5 heads / 4 days",
+      "status": "PASS",
+      "evidence": "per_image_metrics.csv",
+      "details": "20 rows"
+    },
+    {
+      "category": "zero_shot",
+      "check": "custom: global Dice/IoU recalculated",
+      "status": "PASS",
+      "evidence": "per_image_metrics.csv / group_metrics.csv",
+      "details": "Dice=0.57088603; IoU=0.39946852"
+    },
+    {
+      "category": "zero_shot",
+      "check": "custom: Technical Report reported Dice",
+      "status": "PASS",
+      "evidence": "report claim",
+      "details": "computed 0.57088603"
+    },
+    {
+      "category": "zero_shot",
+      "check": "resnet18: 20 unique images / 5 heads / 4 days",
+      "status": "PASS",
+      "evidence": "per_image_metrics.csv",
+      "details": "20 rows"
+    },
+    {
+      "category": "zero_shot",
+      "check": "resnet18: global Dice/IoU recalculated",
+      "status": "PASS",
+      "evidence": "per_image_metrics.csv / group_metrics.csv",
+      "details": "Dice=0.58675959; IoU=0.41518739"
+    },
+    {
+      "category": "zero_shot",
+      "check": "resnet18: Technical Report reported Dice",
+      "status": "PASS",
+      "evidence": "report claim",
+      "details": "computed 0.58675959"
+    },
+    {
+      "category": "loho_custom",
+      "check": "protocol JSON readable",
+      "status": "PASS",
+      "evidence": "experiments\\session5_3_custom_loho_v1\\protocol_summary.json",
+      "details": "epochs=3; lr=0.0001"
+    },
+    {
+      "category": "loho_custom",
+      "check": "20 unique held-out image results",
+      "status": "PASS",
+      "evidence": "oof_per_image_metrics.csv",
+      "details": "20 rows"
+    },
+    {
+      "category": "loho_custom",
+      "check": "per-image held-out head equals image head",
+      "status": "PASS",
+      "evidence": "oof_per_image_metrics.csv",
+      "details": ""
+    },
+    {
+      "category": "loho_custom",
+      "check": "pooled TP/FP/FN reproduce ALL metrics",
+      "status": "PASS",
+      "evidence": "oof_per_image_metrics.csv + oof_group_metrics.csv",
+      "details": "Dice=0.66453142; IoU=0.49760169"
+    },
+    {
+      "category": "loho_custom",
+      "check": "Technical Report Dice consistency",
+      "status": "PASS",
+      "evidence": "report claim",
+      "details": "computed 0.66453142"
+    },
+    {
+      "category": "loho_custom",
+      "check": "five folds / 16 train + 4 held-out per fold / no head leakage",
+      "status": "PASS",
+      "evidence": "fold_membership.csv",
+      "details": ""
+    },
+    {
+      "category": "loho_resnet18",
+      "check": "protocol JSON readable",
+      "status": "PASS",
+      "evidence": "experiments\\session5_3_resnet18_loho_v1\\protocol_summary.json",
+      "details": "epochs=3; lr=0.0001"
+    },
+    {
+      "category": "loho_resnet18",
+      "check": "20 unique held-out image results",
+      "status": "PASS",
+      "evidence": "oof_per_image_metrics.csv",
+      "details": "20 rows"
+    },
+    {
+      "category": "loho_resnet18",
+      "check": "per-image held-out head equals image head",
+      "status": "PASS",
+      "evidence": "oof_per_image_metrics.csv",
+      "details": ""
+    },
+    {
+      "category": "loho_resnet18",
+      "check": "pooled TP/FP/FN reproduce ALL metrics",
+      "status": "PASS",
+      "evidence": "oof_per_image_metrics.csv + oof_group_metrics.csv",
+      "details": "Dice=0.94829793; IoU=0.90167924"
+    },
+    {
+      "category": "loho_resnet18",
+      "check": "Technical Report Dice consistency",
+      "status": "PASS",
+      "evidence": "report claim",
+      "details": "computed 0.94829793"
+    },
+    {
+      "category": "loho_resnet18",
+      "check": "five folds / 16 train + 4 held-out per fold / no head leakage",
+      "status": "PASS",
+      "evidence": "fold_membership.csv",
+      "details": ""
+    },
+    {
+      "category": "longitudinal",
+      "check": "157 images / five biological heads",
+      "status": "PASS",
+      "evidence": "observation_manifest_157.csv",
+      "details": "rows=157"
+    },
+    {
+      "category": "longitudinal",
+      "check": "day counts D0=37, D3/5/7=40",
+      "status": "PASS",
+      "evidence": "observation_manifest_157.csv",
+      "details": "{'D0': 37, 'D3': 40, 'D5': 40, 'D7': 40}"
+    },
+    {
+      "category": "longitudinal",
+      "check": "40 leaf-side series; 37 complete",
+      "status": "PASS",
+      "evidence": "longitudinal_series_40.csv",
+      "details": "rows=40, complete=37"
+    },
+    {
+      "category": "longitudinal",
+      "check": "111 D0 follow-up pairs",
+      "status": "PASS",
+      "evidence": "D0_followup_pairs_111.csv",
+      "details": "rows=111"
+    },
+    {
+      "category": "longitudinal",
+      "check": "three specific D0 reverse photos absent",
+      "status": "PASS",
+      "evidence": "missing_observations.csv",
+      "details": "{('C04', 'L03', 'reverse', 'D0'), ('C05', 'L03', 'reverse', 'D0'), ('C05', 'L04', 'reverse', 'D0')}"
+    },
+    {
+      "category": "roi_sensitivity",
+      "check": "20 in-sample GT/auto comparisons",
+      "status": "PASS",
+      "evidence": "per_image_GT_vs_Auto_20.csv",
+      "details": "rows=20"
+    },
+    {
+      "category": "roi_sensitivity",
+      "check": "mean in-sample mask Dice approximately 0.9576",
+      "status": "PASS",
+      "evidence": "per_image_GT_vs_Auto_20.csv",
+      "details": "mean=0.957622956"
+    },
+    {
+      "category": "roi_sensitivity",
+      "check": "diagnosis explicitly not freshness validation",
+      "status": "PASS",
+      "evidence": "experiments\\session6_4_gt_auto_sensitivity_v2\\diagnosis_summary.json",
+      "details": "ROI_SENSITIVITY_DIAGNOSTIC_NOT_FRESHNESS_VALIDATION"
+    },
+    {
+      "category": "visual_features",
+      "check": "157 provisional features",
+      "status": "PASS",
+      "evidence": "visual_features_157_PROVISIONAL.csv",
+      "details": "rows=157"
+    },
+    {
+      "category": "colour_diagnostic",
+      "check": "20 samples in colour diagnostic",
+      "status": "PASS",
+      "evidence": "pilot20_leaf_wood_color.csv",
+      "details": "rows=20"
+    },
+    {
+      "category": "source_validation",
+      "check": "custom validation evaluation file has 115 images",
+      "status": "PASS",
+      "evidence": "experiments/session3_4_evaluation_v2/per_image_metrics.csv",
+      "details": "rows=115"
+    },
+    {
+      "category": "source_validation",
+      "check": "custom source metric reproduction",
+      "status": "WARN",
+      "evidence": "experiments/session3_4_evaluation_v2/per_image_metrics.csv",
+      "details": "No TP/FP/FN in per-image table; needs original evaluation run for full verification"
+    },
+    {
+      "category": "source_validation",
+      "check": "resnet18 validation evaluation file has 115 images",
+      "status": "PASS",
+      "evidence": "experiments/session4_4_evaluation_v1/per_image_metrics.csv",
+      "details": "rows=115"
+    },
+    {
+      "category": "source_validation",
+      "check": "resnet18 source metric reproduction",
+      "status": "WARN",
+      "evidence": "experiments/session4_4_evaluation_v1/per_image_metrics.csv",
+      "details": "No TP/FP/FN in per-image table; needs original evaluation run for full verification"
+    },
+    {
+      "category": "dataset_licence",
+      "check": "source license review",
+      "status": "WARN",
+      "evidence": "datasets/Bok_Choy_Dataset/LICENSE.txt",
+      "details": "Manual review of attribution and redistribution is required"
+    }
+  ],
+  "recomputed_metrics": [
+    {
+      "experiment": "zero_shot",
+      "model": "custom",
+      "tp": 130329,
+      "fp": 195908,
+      "fn": 19,
+      "global_dice": 0.5708860343638096,
+      "global_iou": 0.3994685155215536
+    },
+    {
+      "experiment": "zero_shot",
+      "model": "resnet18",
+      "tp": 130160,
+      "fp": 183149,
+      "fn": 188,
+      "global_dice": 0.5867595913058962,
+      "global_iou": 0.41518738616318496
+    },
+    {
+      "experiment": "LOHO_5_fold",
+      "model": "custom",
+      "tp": 82162,
+      "fp": 34768,
+      "fn": 48186,
+      "global_dice": 0.6645314180800557,
+      "global_iou": 0.4976016860873568
+    },
+    {
+      "experiment": "LOHO_5_fold",
+      "model": "resnet18",
+      "tp": 125970,
+      "fp": 9358,
+      "fn": 4378,
+      "global_dice": 0.9482979267980548,
+      "global_iou": 0.9016792406911658
+    }
+  ]
+}

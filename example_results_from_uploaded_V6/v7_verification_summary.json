@@ -1,0 +1,89 @@
+{
+  "result": "PASS",
+  "zip": "/mnt/data/CS7002SR_Artifact_V6_NEW.zip",
+  "isolated_root": "/mnt/data/V7_local_validation_20261113/isolated",
+  "checks": [
+    {
+      "check": "zip_paths_safe",
+      "status": "PASS",
+      "detail": "203 regular entries, root=CS7002SR_Artifact_V6_NEW/"
+    },
+    {
+      "check": "zip_duplicate_entries",
+      "status": "PASS",
+      "detail": "203 entries"
+    },
+    {
+      "check": "zip_crc",
+      "status": "PASS",
+      "detail": "all entries pass CRC"
+    },
+    {
+      "check": "isolated_extraction",
+      "status": "PASS",
+      "detail": "/mnt/data/V7_local_validation_20261113/isolated/CS7002SR_Artifact_V6_NEW"
+    },
+    {
+      "check": "required_paths",
+      "status": "PASS",
+      "detail": "13/13"
+    },
+    {
+      "check": "manifest_sha256",
+      "status": "PASS",
+      "detail": "199 tracked, 0 mismatch, payload=166437589 bytes"
+    },
+    {
+      "check": "manifest_unique",
+      "status": "PASS",
+      "detail": "199 rows"
+    },
+    {
+      "check": "build_summary",
+      "status": "PASS",
+      "detail": "{'status': 'STAGED_NOT_INDEPENDENTLY_VERIFIED', 'files': 199, 'payload_bytes': 166437589, 'include_target_157': False, 'source_dataset_redistribution': 'EXCLUDED_PENDING_MANUAL_REVIEW', 'validation': 'needs V7 clean-folder/clean-environment testing', 'source_root_is_not_bundled': True}"
+    },
+    {
+      "check": "untracked_files",
+      "status": "PASS",
+      "detail": "extra files: ARTIFACT_BUILD_SUMMARY_V6.json, FILE_MANIFEST_V6.csv, README_START_HERE.md, SOURCE_DATASET_ACCESS_AND_LICENCE_REVIEW_REQUIRED.md"
+    },
+    {
+      "check": "source_dataset_exclusion",
+      "status": "PASS",
+      "detail": "no original public source images/labels/derived mask ZIP"
+    },
+    {
+      "check": "source_validation_custom",
+      "status": "PASS",
+      "detail": "115 rows"
+    },
+    {
+      "check": "source_validation_resnet18",
+      "status": "PASS",
+      "detail": "115 rows"
+    },
+    {
+      "check": "reviewed_gt_masks",
+      "status": "PASS",
+      "detail": "20 PNG masks"
+    },
+    {
+      "check": "reviewed_photo_subset",
+      "status": "PASS",
+      "detail": "20 JPG photos"
+    },
+    {
+      "check": "isolated_cpu_demo",
+      "status": "PASS",
+      "detail": "returncode=0; outputs=6/6; see demo_console_v7.txt"
+    },
+    {
+      "check": "demo_metrics_finite",
+      "status": "PASS",
+      "detail": "{'roi_fraction': 0.4026595289079229, 'green_ratio': 0.6020250795035151, 'yellow_candidate_ratio': 0.13542187383669604, 'brown_candidate_ratio': 0.045356888354729265}"
+    }
+  ],
+  "demo_executed": true,
+  "note": "This proves packaged-file integrity and local isolated-folder execution, NOT a fresh environment installation, food safety, or calibrated freshness grading."
+}

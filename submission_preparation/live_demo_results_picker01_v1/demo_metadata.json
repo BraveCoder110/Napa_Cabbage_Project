@@ -1,0 +1,39 @@
+{
+  "demo_version": "live_leaf_demo_v1",
+  "source_photo": "C:\\Users\\liyoubao\\Desktop\\LMU-6.AI Vision and Deep Learning\\Napa_Cabbage_Project\\experiments\\session5_1_pilot20_review_v1\\images\\A01C01L01正.jpg",
+  "source_sha256": "2915645fc0ecb2ee084864146526a496333e7e4639681cc65f7baa50bb6b14a3",
+  "model_checkpoint": "C:\\Users\\liyoubao\\Desktop\\LMU-6.AI Vision and Deep Learning\\Napa_Cabbage_Project\\experiments\\session6_2_analysis_roi_candidates_v1\\resnet18_target_analysis_only.pth",
+  "checkpoint_sha256": "900cf8bdbd3b573e05519d4837044aa12cad279be805788c04234087272269c4",
+  "model_architecture": "ResNet18UNet",
+  "model_type": "Session6 analysis-only (all 20 reviewed target masks)",
+  "image_upright_size": [
+    1868,
+    4000
+  ],
+  "image_model_size": [
+    128,
+    128
+  ],
+  "colour_sample_stride": 4,
+  "mask_threshold": 0.5,
+  "mask_128_foreground_fraction": 0.44537353515625,
+  "feature_metrics": {
+    "roi_pixel_count_sampled": 208009,
+    "roi_fraction": 0.44541541755888653,
+    "mean_r": 140.58090209960938,
+    "mean_g": 167.11990356445312,
+    "mean_b": 115.41679382324219,
+    "mean_h": 50.6243239475215,
+    "mean_s": 108.79772990591754,
+    "mean_v": 167.5255013004245,
+    "green_ratio": 0.6315544038959853,
+    "yellow_candidate_ratio": 0.018725151315568078,
+    "brown_candidate_ratio": 0.00686508756832637,
+    "texture_neighbor_diff": 10.589679718017578
+  },
+  "warnings": [
+    "New images have no GT: Dice/IoU cannot be calculated from this photograph.",
+    "Model not validated on uncontrolled live photos; camera lighting and background may bias features."
+  ],
+  "research_boundary": "No validated freshness grade, no ground truth for this photo, no per-photo Dice."
+}

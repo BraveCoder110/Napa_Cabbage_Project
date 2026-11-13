@@ -1,0 +1,8 @@
+# Environment snapshot, not a tested clean-install requirements lock
+# Generated from packages imported by E3_Session2 ... E3_Session6
+Pillow==12.3.0
+opencv-python==5.0.0.93
+matplotlib==3.11.0
+numpy==2.5.1
+torch==2.14.1
+torchvision==0.29.1

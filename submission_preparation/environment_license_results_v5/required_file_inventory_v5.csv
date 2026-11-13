@@ -1,0 +1,13 @@
+﻿item,relative_path,exists,type,bytes
+Custom U-Net model,E3_Session3/models/unet.py,True,file,2699
+ResNet18 U-Net model,E3_Session4/models/resnet18_unet.py,True,file,2453
+Custom source checkpoint,experiments/session3_4_baseline_v2/best_unet.pth,True,file,1987609
+ResNet18 source checkpoint,experiments/session4_4_transfer_v1/best_resnet18_unet.pth,True,file,57419943
+Analysis-only checkpoint,experiments/session6_2_analysis_roi_candidates_v1/resnet18_target_analysis_only.pth,True,file,57422011
+Source license,datasets/Bok_Choy_Dataset/LICENSE.txt,True,file,1014
+Source provenance,datasets/Bok_Choy_Dataset/dataset_info.json,True,file,2025
+Source README,datasets/Bok_Choy_Dataset/README.md,True,file,4404
+Source hashes,datasets/Bok_Choy_Dataset/checksums.sha256,True,file,101020
+20 reviewed masks,experiments/Session5_1_GT_Pilot20_Final_v1/masks,True,directory,
+LOHO ResNet evidence,experiments/session5_3_resnet18_loho_v1/oof_per_image_metrics.csv,True,file,1611
+V4 audit evidence,submission_preparation/evidence_audit_results_v4/evidence_summary_v4.json,True,file,8968

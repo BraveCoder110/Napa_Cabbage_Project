@@ -1,0 +1,93 @@
+{
+  "timestamp_utc": "2026-11-07T06:10:15.363917+00:00",
+  "environment": {
+    "python": "3.14.6",
+    "torch": "2.14.1+cpu",
+    "device": "cpu"
+  },
+  "checks": [
+    {
+      "name": "checkpoint_safe_load_and_tensor_schema",
+      "status": "PASS"
+    },
+    {
+      "name": "analysis_checkpoint_strict_load_into_project_architecture",
+      "status": "PASS"
+    },
+    {
+      "name": "deterministic_cpu_forward_finite_output",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "interpretation": "Smoke test only: not a Dice or IoU reproduction.",
+  "checkpoints": {
+    "source": {
+      "path": "experiments\\session4_4_transfer_v1\\best_resnet18_unet.pth",
+      "sha256": "e4e57f1ea23f9894b2fef67d6b14c83fdfc032674f15980405be98d14f87a6dd",
+      "size_bytes": 57419943,
+      "metadata": {
+        "config": {
+          "images": "E3_Session2\\Bok_Choy_Dataset.zip",
+          "masks": "E3_output\\binary_masks.zip",
+          "output": "experiments\\session4_4_transfer_v1",
+          "epochs": 3,
+          "batch_size": 2,
+          "size": 128,
+          "lr": 0.0001,
+          "seed": 42,
+          "threads": 4,
+          "max_train_batches": 0,
+          "max_val_batches": 0
+        },
+        "epoch": 2,
+        "best_val_dice": 0.9483798202893468,
+        "architecture": "ResNet18UNet",
+        "pretrained_encoder": true
+      }
+    },
+    "analysis": {
+      "path": "experiments\\session6_2_analysis_roi_candidates_v1\\resnet18_target_analysis_only.pth",
+      "sha256": "900cf8bdbd3b573e05519d4837044aa12cad279be805788c04234087272269c4",
+      "size_bytes": 57422011,
+      "metadata": {
+        "architecture": "ResNet18UNet",
+        "source_checkpoint_name": "best_resnet18_unet.pth",
+        "config": {
+          "size": 128,
+          "epochs": 3,
+          "lr": 0.0001,
+          "seed": 2026
+        },
+        "training_image_count": 20,
+        "training_heads": 5,
+        "purpose": "Candidate ROI generation on the same image collection; not independent performance evaluation"
+      }
+    }
+  },
+  "state_dict_comparison": {
+    "source_key_count": 182,
+    "analysis_key_count": 182,
+    "missing_in_analysis": [],
+    "extra_in_analysis": [],
+    "shape_mismatch": [],
+    "exact_key_and_shape_match": true
+  },
+  "model_class": "ResNet18UNet",
+  "constructor_kwargs": {
+    "pretrained": false
+  },
+  "inference": {
+    "shape": [
+      1,
+      1,
+      128,
+      128
+    ],
+    "raw_min": -1.5878890752792358,
+    "raw_max": -0.5490654706954956,
+    "raw_mean": -1.2883986234664917,
+    "all_values_between_0_and_1": false,
+    "parameter_count": 14328081
+  }
+}

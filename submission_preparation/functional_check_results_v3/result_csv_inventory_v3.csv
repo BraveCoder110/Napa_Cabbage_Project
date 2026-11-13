@@ -1,0 +1,9 @@
+﻿path,exists,rows,columns
+experiments/session3_4_evaluation_v2/per_image_metrics.csv,True,115,image | dice | iou
+experiments/session4_4_evaluation_v1/per_image_metrics.csv,True,115,image | dice | iou
+experiments/session5_2_zero_shot_v1/per_image_metrics.csv,True,40,image | model | day | head | dice | iou | tp | fp | fn | tn | foreground_gt | foreground_pred
+experiments/session5_3_custom_loho_v1/oof_per_image_metrics.csv,True,20,image | head | day | model | held_out_head | dice | iou | tp | fp | fn | pred_fraction
+experiments/session5_3_resnet18_loho_v1/oof_per_image_metrics.csv,True,20,image | head | day | model | held_out_head | dice | iou | tp | fp | fn | pred_fraction
+experiments/session5_3_model_comparison_v1/paired_oof_20_images.csv,True,20,image | head | day | model_custom | held_out_head_custom | dice_custom | iou_custom | tp_custom | fp_custom | fn_custom | pred_fraction_custom | model_resnet18 | held_out_head_resnet18 | dice_resnet18 | iou_resnet18 | tp_resnet18 | fp_resnet18 | fn_resnet18 | pred_fraction_resnet18 | dice_resnet_minus_custom | iou_resnet_minus_custom
+experiments/session6_2_analysis_roi_candidates_v1/candidate_roi_manifest_157.csv,True,157,image | day | source_head | leaf_id | side | source_zip | source_member | roi_fraction_128 | mean_probability | status_flags | annotation_type
+experiments/session6_3_visual_features_provisional_v1/visual_features_157_PROVISIONAL.csv,True,157,image | day | source_head | leaf_id | side | series_id | mask_provenance | human_review_status | roi_pixel_count_sampled | roi_fraction | mean_r | mean_g | mean_b | mean_h | mean_s | mean_v | green_ratio | yellow_candidate_ratio | brown_candidate_ratio | texture_neighbor_diff

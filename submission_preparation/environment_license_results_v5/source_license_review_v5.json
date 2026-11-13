@@ -1,0 +1,98 @@
+{
+  "scope": "Read-only audit. NO legal conclusions or source license approval.",
+  "source_licence_file_present": true,
+  "source_licence_sha256": "0bdcbcac088b91b039271b955fc83c2ce6ac2ffa2348438bb430d74edd8e6383",
+  "source_licence_text": "Creative Commons Attribution 4.0 International (CC BY 4.0)\n\nCopyright (c) 2026 Yajie Yang, Qiyong He, Xiuxian Li, and Min Meng.\n\nThis dataset is licensed under the Creative Commons Attribution 4.0 International License.\n\nYou are free to:\n\n1. Share: copy and redistribute the material in any medium or format.\n2. Adapt: remix, transform, and build upon the material for any purpose, including commercial use.\n\nUnder the following terms:\n\n1. Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. Attribution must not suggest that the licensors endorse you or your use.\n2. No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nThe full legal code is available at:\nhttps://creativecommons.org/licenses/by/4.0/legalcode\n\nSuggested attribution:\nYang, Y., He, Q., Li, X., and Meng, M. Postharvest Shanghai Bok Choy Dataset for Pre-Cutting Sorting, Version 1.0.\n",
+  "source_dataset_info_json_text": "{\n  \"title\": \"Postharvest Shanghai Bok Choy Dataset for Pre-Cutting Sorting\",\n  \"version\": \"1.0\",\n  \"license\": \"CC BY 4.0\",\n  \"species\": \"Brassica rapa subsp. chinensis\",\n  \"cultivars\": [\n    \"Youmei No. 2\",\n    \"Dongchun No. 22\"\n  ],\n  \"num_images\": 575,\n  \"num_instances\": 909,\n  \"image_format\": \"JPEG\",\n  \"naming_convention\": {\n    \"pattern\": \"hik_NNNN\",\n    \"train_range\": \"hik_0001-hik_0460\",\n    \"validation_range\": \"hik_0461-hik_0575\"\n  },\n  \"splits\": {\n    \"train\": {\n      \"file\": \"train.json\",\n      \"images\": 460,\n      \"instances\": 725\n    },\n    \"validation\": {\n      \"file\": \"val.json\",\n      \"images\": 115,\n      \"instances\": 184\n    }\n  },\n  \"split_generation\": {\n    \"seed\": 42,\n    \"validation_ratio\": 0.2,\n    \"method\": \"Fixed-source-count random search minimizing global, source, and class imbalance\"\n  },\n  \"classes\": [\n    {\n      \"id\": 0,\n      \"name\": \"bokchoy_yellow\",\n      \"description\": \"Bok choy with basal yellowed leaves and no root residue\",\n      \"instances\": 157\n    },\n    {\n      \"id\": 1,\n      \"name\": \"bokchoy_root\",\n      \"description\": \"Bok choy with root residue and no basal yellowed leaves\",\n      \"instances\": 195\n    },\n    {\n      \"id\": 2,\n      \"name\": \"bokchoy\",\n      \"description\": \"Qualified bok choy without either defect\",\n      \"instances\": 361\n    },\n    {\n      \"id\": 3,\n      \"name\": \"bokchoy_yellow_root\",\n      \"description\": \"Bok choy with both basal yellowed leaves and root residue\",\n      \"instances\": 196\n    }\n  ],\n  \"annotation\": {\n    \"format\": \"One JSON file per image\",\n    \"coordinate_system\": \"Normalized image coordinates in [0, 1]\",\n    \"instance_fields\": [\n      \"class_id\",\n      \"class_name\",\n      \"group_id\",\n      \"bbox_xywhn\",\n      \"polygon_xyn\",\n      \"keypoints\"\n    ],\n    \"keypoints\": [\n      \"root\",\n      \"leaf\"\n    ],\n    \"visibility_values\": {\n      \"0\": \"Unavailable and ignored during supervision\",\n      \"2\": \"Annotated and visible\"\n    },\n    \"instances_with_valid_direction\": 864,\n    \"instances_without_valid_direction\": 45\n  }\n}\n",
+  "source_dataset_info_json_parsed": {
+    "title": "Postharvest Shanghai Bok Choy Dataset for Pre-Cutting Sorting",
+    "version": "1.0",
+    "license": "CC BY 4.0",
+    "species": "Brassica rapa subsp. chinensis",
+    "cultivars": [
+      "Youmei No. 2",
+      "Dongchun No. 22"
+    ],
+    "num_images": 575,
+    "num_instances": 909,
+    "image_format": "JPEG",
+    "naming_convention": {
+      "pattern": "hik_NNNN",
+      "train_range": "hik_0001-hik_0460",
+      "validation_range": "hik_0461-hik_0575"
+    },
+    "splits": {
+      "train": {
+        "file": "train.json",
+        "images": 460,
+        "instances": 725
+      },
+      "validation": {
+        "file": "val.json",
+        "images": 115,
+        "instances": 184
+      }
+    },
+    "split_generation": {
+      "seed": 42,
+      "validation_ratio": 0.2,
+      "method": "Fixed-source-count random search minimizing global, source, and class imbalance"
+    },
+    "classes": [
+      {
+        "id": 0,
+        "name": "bokchoy_yellow",
+        "description": "Bok choy with basal yellowed leaves and no root residue",
+        "instances": 157
+      },
+      {
+        "id": 1,
+        "name": "bokchoy_root",
+        "description": "Bok choy with root residue and no basal yellowed leaves",
+        "instances": 195
+      },
+      {
+        "id": 2,
+        "name": "bokchoy",
+        "description": "Qualified bok choy without either defect",
+        "instances": 361
+      },
+      {
+        "id": 3,
+        "name": "bokchoy_yellow_root",
+        "description": "Bok choy with both basal yellowed leaves and root residue",
+        "instances": 196
+      }
+    ],
+    "annotation": {
+      "format": "One JSON file per image",
+      "coordinate_system": "Normalized image coordinates in [0, 1]",
+      "instance_fields": [
+        "class_id",
+        "class_name",
+        "group_id",
+        "bbox_xywhn",
+        "polygon_xyn",
+        "keypoints"
+      ],
+      "keypoints": [
+        "root",
+        "leaf"
+      ],
+      "visibility_values": {
+        "0": "Unavailable and ignored during supervision",
+        "2": "Annotated and visible"
+      },
+      "instances_with_valid_direction": 864,
+      "instances_without_valid_direction": 45
+    }
+  },
+  "source_readme_excerpt": "# Postharvest Shanghai Bok Choy Dataset for Pre-Cutting Sorting\n\n## Overview\n\nThis dataset contains RGB images and instance-level annotations of postharvest Shanghai bok choy (*Brassica rapa* subsp. *chinensis*) collected for visual perception in pre-cutting sorting. The samples cover two cultivars, 'Youmei No. 2' and 'Dongchun No. 22', and four postharvest states involving basal yellowed leaves and root residues.\n\nThe release contains the original fixed training and validation split used in the associated experiments. No independent test split was used. The dataset contains 575 images and 909 annotated instances.\n\n## Directory Structure\n\n```text\nrelease_dataset/\n|-- images/             # 575 RGB JPEG images\n|-- labels/             # 575 instance-annotation JSON files\n|-- train.json          # Fixed training split and image-label pairs\n|-- val.json            # Fixed validation split and image-label pairs\n|-- dataset_info.json   # Dataset metadata and class definitions\n|-- LICENSE.txt         # CC BY 4.0 license notice\n`-- README.md\n```\n\nAll images use the JPEG format. Each image has one JSON annotation file with the same stem. Samples are sequentially named using the zero-padded `hik_NNNN` convention. For example, `images/hik_0001.jpg` corresponds to `labels/hik_0001.json`. The training samples range from `hik_0001` to `hik_0460`, and the validation samples range from `hik_0461` to `hik_0575`.\n\n## Dataset Statistics\n\n| Split | Images | Instances | Yellow leaves | Root residue | Qualified | Both defects |\n|---|---:|---:|---:|---:|---:|---:|\n| Train | 460 | 725 | 125 | 156 | 288 | 156 |\n| Validation | 115 | 184 | 32 | 39 | 73 | 40 |\n| Total | 575 | 909 | 157 | 195 | 361 | 196 |\n\nThe split was generated with seed 42 and a validation ratio of 0.20. Candidate allocations were searched to reduce class and source imbalance while keeping all instances from the same image in one split.\n\n## Class Definitions\n\n| ID | Internal name | Definition |\n|---:|---|---|\n| 0 | `bokchoy_yellow` | Bok choy with basal yellowed leaves and no root residue |\n| 1 | `bokchoy_root` | Bok choy with root residue and no basal yellowed leaves |\n| 2 | `bokchoy` | Qualified bok choy without either defect |\n| 3 | `bokchoy_yellow_root` | Bok choy with both basal yellowed leaves and root residue |\n\n## Annotation Format\n\nEach file in `labels/` has the following structure:\n\n```json\n{\n  \"image\": \"hik_0001.jpg\",\n  \"instances\": [\n    {\n      \"class_id\": 1,\n      \"class_name\": \"bokchoy_root\",\n      \"group_id\": 1,\n      \"bbox_xywhn\": [0.50, 0.50, 0.40, 0.30],\n      \"polygon_xyn\": [[0.30, 0.40], [0.70, 0.40], [0.70, 0.60]],\n      \"keypoints\": {\n        \"root\": [0.45, 0.65, 2],\n        \"leaf\": [0.55, 0.30, 2]\n      }\n    }\n  ]\n}\n```\n\n- `class_id`: zero-based class identifier.\n- `class_name`: internal class name corresponding to `class_id`.\n- `group_id`: instance identifier within the image.\n- `bbox_xywhn`: normalized bounding box `[center_x, center_y, width, height]`.\n- `polygon_xyn`: normalized instance-mask polygon vertices `[x, y]`.\n- `keypoints.root`: normalized root-end keypoint `[x, y, visibility]`.\n- `keypoints.leaf`: normalized leaf-end reference point `[x, y, visibility]`.\n- `visibility = 2`: annotated and visible keypoint.\n- `visibility = 0`: unavailable direction annotation; its coordinates must not be used for supervision.\n\nAmong the 909 instances, 864 contain valid root and leaf reference points and 45 use visibility value 0 for both points.\n\n## Split Files\n\n`train.json` and `val.json` contain explicit image-label pairs:\n\n```json\n{\n  \"split\": \"train\",\n  \"num_samples\": 460,\n  \"samples\": [\n    {\n      \"id\": \"hik_0001\",\n      \"image\": \"images/hik_0001.jpg\",\n      \"label\": \"labels/hik_0001.json\"\n    }\n  ]\n}\n```\n\nPaths are relative to the release root so that the dataset can be moved without modification.\n\n## License and Citation\n\nThe dataset is released under the Creative Commons Attribution 4.0 International license (CC BY 4.0). See `LICENSE.txt` for details.\n\nWhen using this dataset, please cite the corresponding Mendeley Data record and the associated research article after their DOI information becomes available.\n\n## Data Integrity Notes\n\nThe release does not include framework-specific YOLO text labels, COCO conversions, generated cache files, trained weights, or model predictions. The JSON files in `labels/` are the canonical annotations for this release.\n",
+  "questions_to_resolve": [
+    "Identify original source dataset publisher and original public URL.",
+    "Check whether the license actually applies to all 575 photos and annotations.",
+    "Check whether the license permits redistribution, or requires link-only access.",
+    "Check attribution wording and whether edits must be identified.",
+    "Check how licence conditions relate to submitting dataset copies to Canvas."
+  ]
+}

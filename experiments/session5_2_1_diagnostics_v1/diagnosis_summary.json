@@ -1,0 +1,51 @@
+{
+  "warning": "Threshold sweep is post-hoc on the target pilot and must not be reported as independent test improvement.",
+  "reference_unchanged_target_global_dice": {
+    "custom": 0.57088603,
+    "resnet18": 0.58675959
+  },
+  "preprocessing": "EXIF-aligned RGB, resize bilinear 128x128, RGB [0,1], GT nearest 128x128, threshold 0.5",
+  "n_target_images": 20,
+  "gt_foreground_fraction": 0.39779052734375,
+  "target": {
+    "all_foreground": {
+      "global_dice": 0.569170443728331,
+      "global_iou": 0.39779052734375,
+      "tp": 130348,
+      "fp": 197332,
+      "fn": 0,
+      "foreground_fraction": 1.0
+    },
+    "custom": {
+      "global_dice": 0.5708860343638096,
+      "global_iou": 0.3994685155215536,
+      "tp": 130329,
+      "fp": 195908,
+      "fn": 19,
+      "foreground_fraction": 0.9955963134765625
+    },
+    "resnet18": {
+      "global_dice": 0.5867595913058962,
+      "global_iou": 0.41518738616318496,
+      "tp": 130160,
+      "fp": 183149,
+      "fn": 188,
+      "foreground_fraction": 0.9561431884765625
+    }
+  },
+  "source_reproduction": {
+    "status": "full_validation",
+    "images_evaluated": 115,
+    "expected_full_validation": 115,
+    "results": {
+      "custom": {
+        "global_dice": 0.9575810653996891,
+        "global_iou": 0.9186144203787407
+      },
+      "resnet18": {
+        "global_dice": 0.9483798202893393,
+        "global_iou": 0.9018273313757382
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "n_images": 20,
+  "n_heads": 5,
+  "pairs": 15,
+  "stride": 4,
+  "main_roi": "manually reviewed GT on L01 front only",
+  "bins_HSV_OpenCV": {
+    "yellow_base": [
+      15,
+      35,
+      45,
+      55
+    ],
+    "yellow_narrow": [
+      18,
+      32,
+      65,
+      75
+    ],
+    "yellow_broad": [
+      12,
+      38,
+      35,
+      45
+    ]
+  },
+  "reference": "Fixed four corner patches, 12% each dimension, 2% inset; leaf-dilated exclusions; require >=2 patches for usable reference",
+  "limitations": [
+    "Wood is NOT a standard colour card",
+    "Patch selection does not guarantee absence of shadow",
+    "HSV cutoffs are heuristic, not biological freshness labels",
+    "Camera exposure and white balance cannot be resolved from JPEG alone",
+    "Only five source heads and L01 front",
+    "Any colour correction must be separately justified and validated"
+  ],
+  "interpretation": "Diagnostic, not calibrated colour or verified freshness"
+}

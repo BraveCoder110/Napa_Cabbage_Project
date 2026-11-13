@@ -1,0 +1,14 @@
+{
+  "images": "E3_Session2\\Bok_Choy_Dataset.zip",
+  "masks": "E3_output\\binary_masks.zip",
+  "output": "experiments\\session3_4_diagnostic",
+  "epochs": 1,
+  "batch_size": 2,
+  "size": 128,
+  "base_channels": 16,
+  "lr": 0.001,
+  "seed": 42,
+  "threads": 4,
+  "max_train_batches": 2,
+  "max_val_batches": 2
+}

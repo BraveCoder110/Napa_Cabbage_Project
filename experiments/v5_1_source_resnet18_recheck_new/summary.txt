@@ -1,0 +1,6 @@
+Split: val
+Images: 115
+Global Dice: 0.948380
+Global IoU: 0.901827
+Threshold: 0.5
+Note: Source-domain evaluation only; not Huang Jing Bai Cai validation.

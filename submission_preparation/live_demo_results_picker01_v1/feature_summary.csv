@@ -1,0 +1,13 @@
+﻿feature,value,unit_or_note
+roi_pixel_count_sampled,208009,original analysis unit
+roi_fraction,0.44541541755888653,fraction
+mean_r,140.58090209960938,original analysis unit
+mean_g,167.11990356445312,original analysis unit
+mean_b,115.41679382324219,original analysis unit
+mean_h,50.6243239475215,original analysis unit
+mean_s,108.79772990591754,original analysis unit
+mean_v,167.5255013004245,original analysis unit
+green_ratio,0.6315544038959853,fraction
+yellow_candidate_ratio,0.018725151315568078,fraction
+brown_candidate_ratio,0.00686508756832637,fraction
+texture_neighbor_diff,10.589679718017578,original analysis unit

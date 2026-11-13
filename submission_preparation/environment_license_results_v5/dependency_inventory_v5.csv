@@ -1,0 +1,7 @@
+﻿import_name,distribution,installed_version,status,example_script,script_count
+PIL,Pillow,12.3.0,INSTALLED,E3_Session2/check_dataloader.py,15
+cv2,opencv-python,5.0.0.93,INSTALLED,E3_Session2/convert_polygons.py,3
+matplotlib,matplotlib,3.11.0,INSTALLED,E3_Session4/compare_models.py,1
+numpy,numpy,2.5.1,INSTALLED,E3_Session2/check_dataloader.py,17
+torch,torch,2.14.1,INSTALLED,E3_Session2/check_dataloader.py,17
+torchvision,torchvision,0.29.1,INSTALLED,E3_Session4/check_transfer_environment.py,2

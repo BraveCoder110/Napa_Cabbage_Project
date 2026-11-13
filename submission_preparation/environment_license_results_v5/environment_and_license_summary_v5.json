@@ -1,0 +1,25 @@
+{
+  "audit_version": "v5",
+  "read_only_project_inputs": true,
+  "project_root_relative": "Napa_Cabbage_Project",
+  "system": {
+    "python_version": "3.14.6",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "machine": "AMD64"
+  },
+  "required_files_found": 12,
+  "required_files_total": 12,
+  "packages_detected": 6,
+  "packages_not_found": [],
+  "parse_errors": [],
+  "licence_decision": "PENDING_MANUAL_REVIEW",
+  "source_validation_reinference": "NOT_PERFORMED",
+  "model_retraining": "NOT_PERFORMED",
+  "notes": [
+    "Do not release source images before checking original author, licence and attribution.",
+    "Do not confuse source validation rerun with LOHO results reproduction.",
+    "Python package list is a machine snapshot, not a portable guarantee.",
+    "Do not include unrelated CIFAR-10 data in final cabbage artifact."
+  ]
+}

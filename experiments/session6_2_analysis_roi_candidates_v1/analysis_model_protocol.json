@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED_CANDIDATE_GENERATION_NOT_HUMAN_GT",
+  "total_predictions": 157,
+  "counts_by_day": {
+    "0": 37,
+    "3": 40,
+    "5": 40,
+    "7": 40
+  },
+  "model": "ResNet18UNet initialized from source-domain checkpoint; trained on all 20 pilot GT images",
+  "preprocessing": "EXIF transpose; RGB 0..1; bilinear 128x128; threshold 0.5; binary nearest-neighbor upsample",
+  "training": {
+    "n_images": 20,
+    "source_heads": 5,
+    "epochs": 3,
+    "lr": 0.0001,
+    "seed": 2026
+  },
+  "warning": "All 157 candidate masks require ROI quality review. Pilot 20 overlap with training; do not use them as independent validation. Full resolution masks are upsampled 128x128 outputs. All images have not been assigned freshness labels.",
+  "recommendation": "For final longitudinal color metrics, use original EXIF-oriented RGB pixels within reviewed/corrected masks; report ROI QC and sensitivity."
+}

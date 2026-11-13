@@ -1,0 +1,9 @@
+Pilot subset: 5 source heads x 4 time points, the FRONT of L01 only (20 photos).
+Goal: create independently reviewed masks for zero-shot target-domain evaluation.
+Label the visible tissue belonging to the numbered detached leaf; exclude the tabletop, hands,
+other detached leaves and background. Record any ambiguity or detached fragments.
+Do NOT use existing model predictions to draw ground truth. Do NOT label image quality/freshness.
+Do NOT edit original JPGs. Keep polygon JSON and record reviewer/revision information.
+This subset is an evaluation pilot, not an independent set of 20 biological specimens.
+All images from the same mother head must stay in one group in any future adaptation study.
+Do not fine-tune on these evaluation images and then report zero-shot accuracy on them.

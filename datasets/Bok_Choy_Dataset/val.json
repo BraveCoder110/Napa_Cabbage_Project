@@ -1,0 +1,581 @@
+{
+  "split": "val",
+  "num_samples": 115,
+  "samples": [
+    {
+      "id": "hik_0461",
+      "image": "images/hik_0461.jpg",
+      "label": "labels/hik_0461.json"
+    },
+    {
+      "id": "hik_0462",
+      "image": "images/hik_0462.jpg",
+      "label": "labels/hik_0462.json"
+    },
+    {
+      "id": "hik_0463",
+      "image": "images/hik_0463.jpg",
+      "label": "labels/hik_0463.json"
+    },
+    {
+      "id": "hik_0464",
+      "image": "images/hik_0464.jpg",
+      "label": "labels/hik_0464.json"
+    },
+    {
+      "id": "hik_0465",
+      "image": "images/hik_0465.jpg",
+      "label": "labels/hik_0465.json"
+    },
+    {
+      "id": "hik_0466",
+      "image": "images/hik_0466.jpg",
+      "label": "labels/hik_0466.json"
+    },
+    {
+      "id": "hik_0467",
+      "image": "images/hik_0467.jpg",
+      "label": "labels/hik_0467.json"
+    },
+    {
+      "id": "hik_0468",
+      "image": "images/hik_0468.jpg",
+      "label": "labels/hik_0468.json"
+    },
+    {
+      "id": "hik_0469",
+      "image": "images/hik_0469.jpg",
+      "label": "labels/hik_0469.json"
+    },
+    {
+      "id": "hik_0470",
+      "image": "images/hik_0470.jpg",
+      "label": "labels/hik_0470.json"
+    },
+    {
+      "id": "hik_0471",
+      "image": "images/hik_0471.jpg",
+      "label": "labels/hik_0471.json"
+    },
+    {
+      "id": "hik_0472",
+      "image": "images/hik_0472.jpg",
+      "label": "labels/hik_0472.json"
+    },
+    {
+      "id": "hik_0473",
+      "image": "images/hik_0473.jpg",
+      "label": "labels/hik_0473.json"
+    },
+    {
+      "id": "hik_0474",
+      "image": "images/hik_0474.jpg",
+      "label": "labels/hik_0474.json"
+    },
+    {
+      "id": "hik_0475",
+      "image": "images/hik_0475.jpg",
+      "label": "labels/hik_0475.json"
+    },
+    {
+      "id": "hik_0476",
+      "image": "images/hik_0476.jpg",
+      "label": "labels/hik_0476.json"
+    },
+    {
+      "id": "hik_0477",
+      "image": "images/hik_0477.jpg",
+      "label": "labels/hik_0477.json"
+    },
+    {
+      "id": "hik_0478",
+      "image": "images/hik_0478.jpg",
+      "label": "labels/hik_0478.json"
+    },
+    {
+      "id": "hik_0479",
+      "image": "images/hik_0479.jpg",
+      "label": "labels/hik_0479.json"
+    },
+    {
+      "id": "hik_0480",
+      "image": "images/hik_0480.jpg",
+      "label": "labels/hik_0480.json"
+    },
+    {
+      "id": "hik_0481",
+      "image": "images/hik_0481.jpg",
+      "label": "labels/hik_0481.json"
+    },
+    {
+      "id": "hik_0482",
+      "image": "images/hik_0482.jpg",
+      "label": "labels/hik_0482.json"
+    },
+    {
+      "id": "hik_0483",
+      "image": "images/hik_0483.jpg",
+      "label": "labels/hik_0483.json"
+    },
+    {
+      "id": "hik_0484",
+      "image": "images/hik_0484.jpg",
+      "label": "labels/hik_0484.json"
+    },
+    {
+      "id": "hik_0485",
+      "image": "images/hik_0485.jpg",
+      "label": "labels/hik_0485.json"
+    },
+    {
+      "id": "hik_0486",
+      "image": "images/hik_0486.jpg",
+      "label": "labels/hik_0486.json"
+    },
+    {
+      "id": "hik_0487",
+      "image": "images/hik_0487.jpg",
+      "label": "labels/hik_0487.json"
+    },
+    {
+      "id": "hik_0488",
+      "image": "images/hik_0488.jpg",
+      "label": "labels/hik_0488.json"
+    },
+    {
+      "id": "hik_0489",
+      "image": "images/hik_0489.jpg",
+      "label": "labels/hik_0489.json"
+    },
+    {
+      "id": "hik_0490",
+      "image": "images/hik_0490.jpg",
+      "label": "labels/hik_0490.json"
+    },
+    {
+      "id": "hik_0491",
+      "image": "images/hik_0491.jpg",
+      "label": "labels/hik_0491.json"
+    },
+    {
+      "id": "hik_0492",
+      "image": "images/hik_0492.jpg",
+      "label": "labels/hik_0492.json"
+    },
+    {
+      "id": "hik_0493",
+      "image": "images/hik_0493.jpg",
+      "label": "labels/hik_0493.json"
+    },
+    {
+      "id": "hik_0494",
+      "image": "images/hik_0494.jpg",
+      "label": "labels/hik_0494.json"
+    },
+    {
+      "id": "hik_0495",
+      "image": "images/hik_0495.jpg",
+      "label": "labels/hik_0495.json"
+    },
+    {
+      "id": "hik_0496",
+      "image": "images/hik_0496.jpg",
+      "label": "labels/hik_0496.json"
+    },
+    {
+      "id": "hik_0497",
+      "image": "images/hik_0497.jpg",
+      "label": "labels/hik_0497.json"
+    },
+    {
+      "id": "hik_0498",
+      "image": "images/hik_0498.jpg",
+      "label": "labels/hik_0498.json"
+    },
+    {
+      "id": "hik_0499",
+      "image": "images/hik_0499.jpg",
+      "label": "labels/hik_0499.json"
+    },
+    {
+      "id": "hik_0500",
+      "image": "images/hik_0500.jpg",
+      "label": "labels/hik_0500.json"
+    },
+    {
+      "id": "hik_0501",
+      "image": "images/hik_0501.jpg",
+      "label": "labels/hik_0501.json"
+    },
+    {
+      "id": "hik_0502",
+      "image": "images/hik_0502.jpg",
+      "label": "labels/hik_0502.json"
+    },
+    {
+      "id": "hik_0503",
+      "image": "images/hik_0503.jpg",
+      "label": "labels/hik_0503.json"
+    },
+    {
+      "id": "hik_0504",
+      "image": "images/hik_0504.jpg",
+      "label": "labels/hik_0504.json"
+    },
+    {
+      "id": "hik_0505",
+      "image": "images/hik_0505.jpg",
+      "label": "labels/hik_0505.json"
+    },
+    {
+      "id": "hik_0506",
+      "image": "images/hik_0506.jpg",
+      "label": "labels/hik_0506.json"
+    },
+    {
+      "id": "hik_0507",
+      "image": "images/hik_0507.jpg",
+      "label": "labels/hik_0507.json"
+    },
+    {
+      "id": "hik_0508",
+      "image": "images/hik_0508.jpg",
+      "label": "labels/hik_0508.json"
+    },
+    {
+      "id": "hik_0509",
+      "image": "images/hik_0509.jpg",
+      "label": "labels/hik_0509.json"
+    },
+    {
+      "id": "hik_0510",
+      "image": "images/hik_0510.jpg",
+      "label": "labels/hik_0510.json"
+    },
+    {
+      "id": "hik_0511",
+      "image": "images/hik_0511.jpg",
+      "label": "labels/hik_0511.json"
+    },
+    {
+      "id": "hik_0512",
+      "image": "images/hik_0512.jpg",
+      "label": "labels/hik_0512.json"
+    },
+    {
+      "id": "hik_0513",
+      "image": "images/hik_0513.jpg",
+      "label": "labels/hik_0513.json"
+    },
+    {
+      "id": "hik_0514",
+      "image": "images/hik_0514.jpg",
+      "label": "labels/hik_0514.json"
+    },
+    {
+      "id": "hik_0515",
+      "image": "images/hik_0515.jpg",
+      "label": "labels/hik_0515.json"
+    },
+    {
+      "id": "hik_0516",
+      "image": "images/hik_0516.jpg",
+      "label": "labels/hik_0516.json"
+    },
+    {
+      "id": "hik_0517",
+      "image": "images/hik_0517.jpg",
+      "label": "labels/hik_0517.json"
+    },
+    {
+      "id": "hik_0518",
+      "image": "images/hik_0518.jpg",
+      "label": "labels/hik_0518.json"
+    },
+    {
+      "id": "hik_0519",
+      "image": "images/hik_0519.jpg",
+      "label": "labels/hik_0519.json"
+    },
+    {
+      "id": "hik_0520",
+      "image": "images/hik_0520.jpg",
+      "label": "labels/hik_0520.json"
+    },
+    {
+      "id": "hik_0521",
+      "image": "images/hik_0521.jpg",
+      "label": "labels/hik_0521.json"
+    },
+    {
+      "id": "hik_0522",
+      "image": "images/hik_0522.jpg",
+      "label": "labels/hik_0522.json"
+    },
+    {
+      "id": "hik_0523",
+      "image": "images/hik_0523.jpg",
+      "label": "labels/hik_0523.json"
+    },
+    {
+      "id": "hik_0524",
+      "image": "images/hik_0524.jpg",
+      "label": "labels/hik_0524.json"
+    },
+    {
+      "id": "hik_0525",
+      "image": "images/hik_0525.jpg",
+      "label": "labels/hik_0525.json"
+    },
+    {
+      "id": "hik_0526",
+      "image": "images/hik_0526.jpg",
+      "label": "labels/hik_0526.json"
+    },
+    {
+      "id": "hik_0527",
+      "image": "images/hik_0527.jpg",
+      "label": "labels/hik_0527.json"
+    },
+    {
+      "id": "hik_0528",
+      "image": "images/hik_0528.jpg",
+      "label": "labels/hik_0528.json"
+    },
+    {
+      "id": "hik_0529",
+      "image": "images/hik_0529.jpg",
+      "label": "labels/hik_0529.json"
+    },
+    {
+      "id": "hik_0530",
+      "image": "images/hik_0530.jpg",
+      "label": "labels/hik_0530.json"
+    },
+    {
+      "id": "hik_0531",
+      "image": "images/hik_0531.jpg",
+      "label": "labels/hik_0531.json"
+    },
+    {
+      "id": "hik_0532",
+      "image": "images/hik_0532.jpg",
+      "label": "labels/hik_0532.json"
+    },
+    {
+      "id": "hik_0533",
+      "image": "images/hik_0533.jpg",
+      "label": "labels/hik_0533.json"
+    },
+    {
+      "id": "hik_0534",
+      "image": "images/hik_0534.jpg",
+      "label": "labels/hik_0534.json"
+    },
+    {
+      "id": "hik_0535",
+      "image": "images/hik_0535.jpg",
+      "label": "labels/hik_0535.json"
+    },
+    {
+      "id": "hik_0536",
+      "image": "images/hik_0536.jpg",
+      "label": "labels/hik_0536.json"
+    },
+    {
+      "id": "hik_0537",
+      "image": "images/hik_0537.jpg",
+      "label": "labels/hik_0537.json"
+    },
+    {
+      "id": "hik_0538",
+      "image": "images/hik_0538.jpg",
+      "label": "labels/hik_0538.json"
+    },
+    {
+      "id": "hik_0539",
+      "image": "images/hik_0539.jpg",
+      "label": "labels/hik_0539.json"
+    },
+    {
+      "id": "hik_0540",
+      "image": "images/hik_0540.jpg",
+      "label": "labels/hik_0540.json"
+    },
+    {
+      "id": "hik_0541",
+      "image": "images/hik_0541.jpg",
+      "label": "labels/hik_0541.json"
+    },
+    {
+      "id": "hik_0542",
+      "image": "images/hik_0542.jpg",
+      "label": "labels/hik_0542.json"
+    },
+    {
+      "id": "hik_0543",
+      "image": "images/hik_0543.jpg",
+      "label": "labels/hik_0543.json"
+    },
+    {
+      "id": "hik_0544",
+      "image": "images/hik_0544.jpg",
+      "label": "labels/hik_0544.json"
+    },
+    {
+      "id": "hik_0545",
+      "image": "images/hik_0545.jpg",
+      "label": "labels/hik_0545.json"
+    },
+    {
+      "id": "hik_0546",
+      "image": "images/hik_0546.jpg",
+      "label": "labels/hik_0546.json"
+    },
+    {
+      "id": "hik_0547",
+      "image": "images/hik_0547.jpg",
+      "label": "labels/hik_0547.json"
+    },
+    {
+      "id": "hik_0548",
+      "image": "images/hik_0548.jpg",
+      "label": "labels/hik_0548.json"
+    },
+    {
+      "id": "hik_0549",
+      "image": "images/hik_0549.jpg",
+      "label": "labels/hik_0549.json"
+    },
+    {
+      "id": "hik_0550",
+      "image": "images/hik_0550.jpg",
+      "label": "labels/hik_0550.json"
+    },
+    {
+      "id": "hik_0551",
+      "image": "images/hik_0551.jpg",
+      "label": "labels/hik_0551.json"
+    },
+    {
+      "id": "hik_0552",
+      "image": "images/hik_0552.jpg",
+      "label": "labels/hik_0552.json"
+    },
+    {
+      "id": "hik_0553",
+      "image": "images/hik_0553.jpg",
+      "label": "labels/hik_0553.json"
+    },
+    {
+      "id": "hik_0554",
+      "image": "images/hik_0554.jpg",
+      "label": "labels/hik_0554.json"
+    },
+    {
+      "id": "hik_0555",
+      "image": "images/hik_0555.jpg",
+      "label": "labels/hik_0555.json"
+    },
+    {
+      "id": "hik_0556",
+      "image": "images/hik_0556.jpg",
+      "label": "labels/hik_0556.json"
+    },
+    {
+      "id": "hik_0557",
+      "image": "images/hik_0557.jpg",
+      "label": "labels/hik_0557.json"
+    },
+    {
+      "id": "hik_0558",
+      "image": "images/hik_0558.jpg",
+      "label": "labels/hik_0558.json"
+    },
+    {
+      "id": "hik_0559",
+      "image": "images/hik_0559.jpg",
+      "label": "labels/hik_0559.json"
+    },
+    {
+      "id": "hik_0560",
+      "image": "images/hik_0560.jpg",
+      "label": "labels/hik_0560.json"
+    },
+    {
+      "id": "hik_0561",
+      "image": "images/hik_0561.jpg",
+      "label": "labels/hik_0561.json"
+    },
+    {
+      "id": "hik_0562",
+      "image": "images/hik_0562.jpg",
+      "label": "labels/hik_0562.json"
+    },
+    {
+      "id": "hik_0563",
+      "image": "images/hik_0563.jpg",
+      "label": "labels/hik_0563.json"
+    },
+    {
+      "id": "hik_0564",
+      "image": "images/hik_0564.jpg",
+      "label": "labels/hik_0564.json"
+    },
+    {
+      "id": "hik_0565",
+      "image": "images/hik_0565.jpg",
+      "label": "labels/hik_0565.json"
+    },
+    {
+      "id": "hik_0566",
+      "image": "images/hik_0566.jpg",
+      "label": "labels/hik_0566.json"
+    },
+    {
+      "id": "hik_0567",
+      "image": "images/hik_0567.jpg",
+      "label": "labels/hik_0567.json"
+    },
+    {
+      "id": "hik_0568",
+      "image": "images/hik_0568.jpg",
+      "label": "labels/hik_0568.json"
+    },
+    {
+      "id": "hik_0569",
+      "image": "images/hik_0569.jpg",
+      "label": "labels/hik_0569.json"
+    },
+    {
+      "id": "hik_0570",
+      "image": "images/hik_0570.jpg",
+      "label": "labels/hik_0570.json"
+    },
+    {
+      "id": "hik_0571",
+      "image": "images/hik_0571.jpg",
+      "label": "labels/hik_0571.json"
+    },
+    {
+      "id": "hik_0572",
+      "image": "images/hik_0572.jpg",
+      "label": "labels/hik_0572.json"
+    },
+    {
+      "id": "hik_0573",
+      "image": "images/hik_0573.jpg",
+      "label": "labels/hik_0573.json"
+    },
+    {
+      "id": "hik_0574",
+      "image": "images/hik_0574.jpg",
+      "label": "labels/hik_0574.json"
+    },
+    {
+      "id": "hik_0575",
+      "image": "images/hik_0575.jpg",
+      "label": "labels/hik_0575.json"
+    }
+  ]
+}

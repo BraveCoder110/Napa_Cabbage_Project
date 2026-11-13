@@ -1,0 +1,21 @@
+{
+  "design": "Zero-shot frozen models; 20 manually reviewed GT; 5 biological source heads; D0,D3,D5,D7",
+  "evaluation_resolution": "128 x 128 for both RGB and nearest-neighbour GT masks",
+  "normalization": "RGB 0..1; no ImageNet mean/std normalization, consistent with source training",
+  "threshold": 0.5,
+  "source_domain_reference_not_target_results": {
+    "custom_val_dice": 0.9576,
+    "resnet18_val_dice": 0.9484
+  },
+  "results": {
+    "custom": {
+      "target_global_dice": 0.57088603,
+      "target_global_iou": 0.39946852
+    },
+    "resnet18": {
+      "target_global_dice": 0.58675959,
+      "target_global_iou": 0.41518739
+    }
+  },
+  "notes": "Metrics are on resized 128x128 masks; do not claim independent sample N=20 or original-resolution performance."
+}
